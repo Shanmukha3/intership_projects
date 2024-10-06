@@ -1,0 +1,74 @@
+{% extends 'hospital/homebase.html' %}
+{% load static %}
+
+
+
+{% block content %}
+
+
+<head>
+  <style media="screen">
+    .jumbotron {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      background-image: url('{% static "images/back.png" %}');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .jumbotron h5,
+    h3 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+
+    .alert {
+      margin: 0px;
+    }
+
+
+
+    .glow {
+      font-size: 50px;
+      color: white;
+      text-align: center;
+      -webkit-animation: glow 1s ease-in-out infinite alternate;
+      -moz-animation: glow 1s ease-in-out infinite alternate;
+      animation: glow 1s ease-in-out infinite alternate;
+    }
+
+    @-webkit-keyframes glow {
+      from {
+        text-shadow: 0 0 10px #e2e621, 0 0 20px #bbb508, 0 0 30px #e7dd21, 0 0 40px #a9c127, 0 0 50px #cbce32, 0 0 60px #a99b21, 0 0 70px #aabe2a;
+      }
+
+      to {
+        text-shadow: 0 0 20px #f50a0a, 0 0 30px #f50a0a, 0 0 40px #f50a0a, 0 0 50px #f50a0a, 0 0 60px #f50a0a, 0 0 70px #e30909, 0 0 80px #fa2d2d;
+      }
+    }
+  </style>
+</head>
+<br>
+<br>
+
+<div class="jumbotron" style="margin-bottom: 0px;margin-top: 0px;">
+  <br>
+  <h5 class="display-3 glow" style="padding-bottom: 30px;">VUSS HealthCare Hospital Management System</h5>
+  <br><br><br><br><br>
+  <p>
+  <h3>Any Emergency ?</h3>
+
+  <p class="lead">
+    <a class="btn btn-danger btn-lg" href="/patientclick" role="button">Get Appointment!!</a>
+  </p>
+  <br><br>
+</div>
+
+<br><br><br><br>
+
+{% include "hospital/admin_doctor_patient_card.html" %}
+<br><br><br>
+
+
+{% endblock content %}

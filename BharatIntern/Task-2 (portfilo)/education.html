@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <link href="navigation.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            background-image: url("images/education.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+        }
+        .a {
+            display: flex;
+            flex-direction: row;
+            gap: 7px;
+            margin-left: 35px;
+            margin-top: 45px;
+        }
+        .a div {
+            background-color: #f0f0f0;
+            width: 230px;
+            height: 350px;
+            border-radius: 15px;
+            background-image: linear-gradient(rgb(178, 118, 128), rgb(219, 219, 216));
+            padding: 10px;
+        }
+        .a div h1 {
+            text-align: center;
+            color: rgb(215, 21, 11);
+            font-weight: bold;
+            text-shadow: 2px 2px rgb(99, 165, 110);
+            text-decoration: underline red;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="home.html"><kk style="color: pink;">Portfolio</kk></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About me</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="achievement.html">Achievements</a></li>
+        </ul>
+    </nav>
+    <div>
+        <h1 style="margin-left: 15px; color: cyan;">About Education:</h1>
+    </div>
+    <div class="a">
+        <div>
+            <h1>Schooling:</h1>
+            <ol>
+                <li>
+                    Secondary School Certificate
+                </li>
+                <li>
+                    Narayana EM School
+                </li>
+                <li>
+                    CGPA: 10
+                </li>
+                <li>
+                    2018 – 2019
+                </li>
+                <li>
+                    Repalle, India
+                </li>
+            </ol>
+        </div>
+        <div>
+            <h1>Intermediate:</h1>
+            <ol>
+                <li>
+                    Intermediate (11th and 12th Grades) in MPC
+                </li>
+                <li>
+                    Narayana Junior College
+                </li>
+                <li>
+                    Percentage: 98.7%
+                </li>
+                <li>
+                    2019 – 2021
+                </li>
+                <li>
+                    Vijayawada, India
+                </li>
+            </ol>
+        </div>
+        <div>
+            <h1>Under Graduation:</h1>
+            <ol>
+                <li>
+                    B.Tech. in Computer Science and Engineering
+                </li>
+                <li>
+                    Vignan’s Foundation for Science, Technology and Research
+                </li>
+                <li>
+                    Percentage: 88% (as of 2-2 semester)
+                </li>
+                <li>
+                    2021 – 2025
+                </li>
+                <li>
+                    Vadlamudi, India
+                </li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>

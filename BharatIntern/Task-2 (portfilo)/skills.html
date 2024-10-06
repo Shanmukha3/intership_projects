@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Skills</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(images/skills.webp);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            backdrop-filter: blur(5px); 
+        }
+        .navbar {
+            background-color: rgba(255, 255, 255, 0.8); 
+            padding: 10px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); 
+            border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        .skills {
+            list-style: none;
+            padding: 0;
+        }
+        .skills li {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        .skills li::before {
+            content: "\2022";
+            color: #ff69b4;
+            font-size: 24px;
+            margin-right: 10px;
+        }
+    </style>
+    <link href="navigation.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="home.html"><kk style="color: pink;">Portfolio</kk></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About me</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="achievements.html">Achievements</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Skills</h1>
+        <ul class="skills">
+            <li>Python</li>
+            <li>DBMS</li>
+            <li>Data Structures</li>
+            <li>Java</li>
+            <li>HTML, CSS, JavaScript (Basic)</li>
+        </ul>
+    </div>
+</body>
+</html>

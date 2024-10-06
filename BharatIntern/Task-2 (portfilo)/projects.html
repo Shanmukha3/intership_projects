@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            background-image: url(images/project.avif);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            filter: brightness(0.7); 
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            display: flex;
+        }
+        .project-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .project-description {
+            font-size: 16px;
+            line-height: 1.5;
+            flex: 1;
+            filter: brightness(1.2); 
+        }
+        .project-image {
+            max-width: 50%;
+            height: auto;
+        }
+        .navbar {
+            background-color: rgba(255, 255, 255, 0.9); 
+            padding: 10px;
+        }
+    </style>
+    <link href="navigation.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="home.html"><kk style="color: pink;">Portfolio</kk></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About me</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="achievement.html">Achievements</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="project-description">
+            <h1>Project-1:</h1><br>
+            <h1 class="project-title">Human Activity Recognition using DL</h1>
+            <p>
+                "Human Activity Recognition using Deep Learning is a technology that utilizes advanced neural networks to automatically
+                 identify and categorize human actions and behaviors based on sensor data. It has applications in fitness tracking, 
+                 healthcare, and security, enabling real-time monitoring and analysis of activities such as walking, running, and more. 
+                 Deep learning models, like Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs), play a key role in
+                  capturing complex patterns from sensor data. This technology enhances our ability to understand and respond to human 
+                  activities, making it invaluable in various industries."
+        </div>
+        <img class="project-image" src="images/project2.png" alt="Project Image">
+    </div>
+    <div class="container">
+        <div class="project-description">
+            <h1>Project-2:</h1><br>
+            <h1 class="project-title">Plant Disease Detection Using ML and DL</h1>
+            <p>
+                Plant disease detection using ML and AI involves the application of machine learning and artificial intelligence
+                techniques to identify and diagnose diseases in plants. This innovative approach utilizes image recognition, sensor
+                data, and advanced algorithms to analyze plant health, helping farmers detect issues early and take timely
+                corrective measures. It enhances agricultural productivity by reducing crop losses, promoting sustainable farming
+                practices, and optimizing resource utilization. By automating disease identification, it offers a cost-effective and
+                efficient solution to address the challenges of food security and crop management in the agriculture sector.
+            </p>
+        </div>
+        <img class="project-image" src="images/project1.png" alt="Project Image">
+    </div>
+</body>
+</html>

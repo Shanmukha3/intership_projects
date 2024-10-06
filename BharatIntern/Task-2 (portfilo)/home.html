@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <style>
+        body {
+            background-image: url(images/home.jpeg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            border-top: 50px;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 80px;
+            border-radius: 15px;
+            margin-top: 20px;
+            display: flex;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        .profile-photo {
+            max-width: 20%;
+            height: auto;
+            border-radius: 50%;
+            margin: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .intro-box {
+            flex: 1;
+            text-align: center;
+            margin: 20px;
+        }
+        .intro-box h1 {
+            margin-bottom: 15px;
+            font-size: 24px;
+            color: #333;
+        }
+        .intro-box p {
+            font-size: 18px;
+            color: #555;
+        }
+    </style>
+    <link href="navigation.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="home.html"><kk style="color: pink;">Portfolio</kk> </a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About me</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="achievement.html">Achievements</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <img class="profile-photo" src="images/myphoto.jpg" alt="Your Photo">
+        <div class="intro-box">
+            <h1>Thotakura Shanmukha Sudha Kiran</h1>
+            <p>Software Developer, Full Stack Developer</p>
+            <p>College Student</p>
+        </div>
+        <img style="max-width: 100%;" src="images/home2.png" alt="Your Photo">
+    </div>
+</body>
+</html>
